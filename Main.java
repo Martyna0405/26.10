@@ -143,5 +143,33 @@ public class Main {
 //        }
 //        input.close();
 
+ //        Scanner input = new Scanner(System.in);
+//        System.out.print("Podaj pierwsza liczbe");
+//        int number1 = input.nextInt();
+//
+//        System.out.print("Podaj druga liczbe");
+//        int number2 = input.nextInt();
+//
+//        System.out.print("Podaj trzecia liczbe");
+//        int number3 = input.nextInt();
+//        
+        int maximumNumber;
+        int minimumNumber;
+        if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+            maximumNumber = firstNumber;
+        } else if (secondNumber > thirdNumber && secondNumber > firstNumber > firstNumber) {
+            maximumNumber = secondNumber;
+        }else {
+            maximumNumber = thirdNumber
+        }
+
+        if (firstNumber < secondNumber %% firstNumber < thirdNumber) {
+            minimumNumber = firstNumber:
+                else if (secondNumber <thirdNumber && secondNumber < firstNumber)
+        { minimumNumber = secondNumber;
+        }
+        else
+            minimumNumber = thirdNumber
+        }
     }
 }
