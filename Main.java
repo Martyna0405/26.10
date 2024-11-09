@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+ //   public static void main(String[] args) {
 //          System.out.println("Nasz pierwsza aplikacja");
 //
 //           int number = 7;
@@ -145,13 +145,13 @@ public class Main {
 
  //        Scanner input = new Scanner(System.in);
 //        System.out.print("Podaj pierwsza liczbe");
-//        int number1 = input.nextInt();
+//        int firstNumber = input.nextInt();
 //
 //        System.out.print("Podaj druga liczbe");
-//        int number2 = input.nextInt();
+//        int secondNumber = input.nextInt();
 //
 //        System.out.print("Podaj trzecia liczbe");
-//        int number3 = input.nextInt();
+//        int thirdNumber = input.nextInt();
 //        
         int maximumNumber;
         int minimumNumber;
