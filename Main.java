@@ -157,19 +157,18 @@ public class Main {
         int minimumNumber;
         if (firstNumber > secondNumber && firstNumber > thirdNumber) {
             maximumNumber = firstNumber;
-        } else if (secondNumber > thirdNumber && secondNumber > firstNumber > firstNumber) {
+        } else if (secondNumber > thirdNumber && secondNumber > firstNumber) {
             maximumNumber = secondNumber;
-        }else {
-            maximumNumber = thirdNumber
+        } else {
+            maximumNumber = thirdNumber;
         }
 
-        if (firstNumber < secondNumber %% firstNumber < thirdNumber) {
-            minimumNumber = firstNumber:
-                else if (secondNumber <thirdNumber && secondNumber < firstNumber)
-        { minimumNumber = secondNumber;
-        }
-        else
-            minimumNumber = thirdNumber
+        if (firstNumber < secondNumber && firstNumber < thirdNumber) {
+            minimumNumber = firstNumber;
+        } else if (secondNumber < thirdNumber && secondNumber < firstNumber) {
+            minimumNumber = secondNumber;
+        } else {
+            minimumNumber = thirdNumber;
         }
     }
 }
